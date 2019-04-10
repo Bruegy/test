@@ -111,7 +111,11 @@ namespace Collections
             }
 
 
+            foreach (object obj in di.Values)
+            {
+                Console.WriteLine(obj);
 
+            }
 
             Console.ReadLine();
 
